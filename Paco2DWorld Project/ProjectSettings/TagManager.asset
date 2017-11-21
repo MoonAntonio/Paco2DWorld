@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Suelo
+  - Plataforma
+  - BG
+  - Player
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 2025803323
+    locked: 0
+  - name: Suelo
+    uniqueID: 1738910953
+    locked: 0
+  - name: Plataforma
+    uniqueID: 1547284983
+    locked: 0
+  - name: Player
+    uniqueID: 3172645861
     locked: 0
