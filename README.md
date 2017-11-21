@@ -8,3 +8,5 @@
 
 # Paco2DWorld
 Mini escena, para la introduccion de un tema de discusion.
+
+<p align="center"><img src="https://github.com/MoonAntonio/Paco2DWorld/blob/master/res/prev.gif?raw=true"></p>
