@@ -42,7 +42,11 @@ namespace MoonAntonio
 		/// <summary>
 		/// <para>Sonido del salto.</para>
 		/// </summary>
-		public AudioSource sonidoSalto;					// Sonido del salto
+		public AudioSource sonidoSalto;                 // Sonido del salto
+		/// <summary>
+		/// <para>Animator</para>
+		/// </summary>
+		public Animator anim;							// Animator
 		#endregion
 
 		#region Actualizadores
@@ -51,6 +55,8 @@ namespace MoonAntonio
 		/// </summary>
 		private void FixedUpdate()// Actualizacion de fisicas
 		{
+			if (Input.GetKey(KeyCode.Escape)) Application.Quit();
+
 			float inputX = Input.GetAxis("Horizontal");
 
 			// Mov horizontal
@@ -89,6 +95,11 @@ namespace MoonAntonio
 		private void OnCollisionEnter2D(Collision2D collision)// Cuando se entra a una collision
 		{
 			isSuelo = true;
+
+			if (collision.gameObject.tag == "info")
+			{
+				anim.SetTrigger("Init");
+			}
 		}
 		#endregion
 	}

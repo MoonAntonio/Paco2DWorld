@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Paco2DWorld Proyecto/Escenas/Main.unity
+    guid: 1ab6ba9dbbe32f34b9f651b70ac8d88a
