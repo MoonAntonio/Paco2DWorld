@@ -1,19 +1,21 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// Activador.cs (00/00/0000)													\\
-// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com								        \\
-// Descripcion:																	\\
-// Fecha Mod:		00/00/0000													\\
-// Ultima Mod:																	\\
+// Activador.cs (21/11/2017)													\\
+// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
+// Descripcion:		Activador de eventos										\\
+// Fecha Mod:		21/11/2017													\\
+// Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
 #region Librerias
 using UnityEngine;
-using System;
 #endregion
 
 namespace MoonAntonio
 {
+	/// <summary>
+	/// <para>Activador de eventos</para>
+	/// </summary>
 	public class Activador : MonoBehaviour
 	{
 		#region Metodos

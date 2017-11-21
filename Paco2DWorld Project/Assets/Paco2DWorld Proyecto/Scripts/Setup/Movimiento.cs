@@ -13,6 +13,9 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
+	/// <summary>
+	/// <para>Movimiento del personaje</para>
+	/// </summary>
 	public class Movimiento : MonoBehaviour 
 	{
 		#region Variables
